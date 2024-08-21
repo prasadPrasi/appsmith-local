@@ -1,0 +1,45 @@
+{
+  "id": "123",
+  "name": "Sample App",
+  "workspaceId": "workspace_abc",
+  "gitApplicationMetadata": {
+    "defaultArtifactId": "123",
+    "gitAuth": {
+      "publicKey": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMQBA0N5z6SAq0P2UnoGfobUMvXEOItMwsVf0aA/6dpw9+SLS2yWZAOi1yAncvIB5KWQBI892sDjvnrMMu37FjM=",
+      "privateKey": "-----BEGIN PRIVATE KEY-----\nMIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQg6EQuD40vNOwQyHrn\nghjSnb2CYUlQtQTpKF5H3dwIlZChRANCAATEAQNDec+kgKtD9lJ6Bn6G1DL1xDiL\nTMLFX9GgP+nacPfki0tslmQDotcgJ3LyAeSlkASPPdrA4756zDLt+xYz\n-----END PRIVATE KEY-----\n",
+      "regeneratedKey": true
+    }
+  },
+  "pages": [
+    {
+      "id": "page_1",
+      "name": "HomePage",
+      "widgets": [
+        {
+          "id": "widget_1",
+          "type": "text",
+          "properties": {
+            "text": "Welcome to the Sample App!"
+          }
+        },
+        {
+          "id": "widget_2",
+          "type": "button",
+          "properties": {
+            "label": "Click Me"
+          }
+        }
+      ]
+    }
+  ],
+  "dataSources": [
+    {
+      "id": "ds_1",
+      "type": "REST API",
+      "config": {
+        "url": "https://api.example.com/data",
+        "method": "GET"
+      }
+    }
+  ]
+}
